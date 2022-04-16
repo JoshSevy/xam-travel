@@ -10,6 +10,11 @@
                TextColor="{StaticResource blueColor}"
                Placeholder="Email"
                Keyboard="Email"/>
+        <Label x:Name="emailError"
+               IsVisible="False"
+               Text="Please enter a valid email"
+               TextColor="Red"
+               />
         <Entry x:Name="passwordEntry"
                TextColor="{StaticResource blueColor}"
                Placeholder="Password"
