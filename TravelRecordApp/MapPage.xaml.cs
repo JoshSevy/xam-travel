@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 
 namespace TravelRecordApp
 {
@@ -28,7 +29,18 @@ namespace TravelRecordApp
             if (status == PermissionStatus.Granted)
             {
                 var location = await Geolocation.GetLocationAsync();
+
+                locationsMap.IsShowingUser = true;
+
+                CenterMap(location.Latitude, location.Longitude);
             }
+        }
+
+        private void CenterMap(double latitude, double longitude)
+        {
+            Position center = new Position(latitude, longitude);
+            MapSpan span = new MapSpan(center, 1, 1);
+            locationsMap.MoveToRegion(span);
         }
 
         private async Task<PermissionStatus> CheckAndRequestLocationPermission()
