@@ -9,7 +9,7 @@
 
             <Style x:Key="normalButton" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{StaticResource blueColor}" />
-                <Setter Property="TextColor" Value="{StaticResource whiteColor" />
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
