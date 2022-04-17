@@ -24,5 +24,17 @@ namespace TravelRecordApp
                 postListView.ItemsSource = posts;
             }
         }
+
+
+        public void Handle_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var selectedPost = postListView.SelectedItem as Post;
+
+            if (selectedPost != null)
+            {
+                Navigation.PushAsync(new PostDetailPage(selectedPost));
+            }
+        }
+
     }
 }
