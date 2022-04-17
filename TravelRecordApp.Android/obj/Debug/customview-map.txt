@@ -21,6 +21,8 @@ com.google.android.material.bottomnavigation.BottomNavigationView;/Users/joshuas
 com.google.android.material.tabs.TabLayout;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/45/jl/res/layout/fallbacktabbardonotuse.xml
 com.google.android.material.tabs.TabLayout;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/45/jl/res/layout/rootlayout.xml
 com.google.android.material.tabs.TabLayout;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/45/jl/res/layout/tabbar.xml
+crc643f46942d9dd1fff9.ShellFlyoutLayout;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/45/jl/res/layout/flyoutcontent.xml
+crc64720bb2db43a66fe9.FormsViewPager;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/45/jl/res/layout/rootlayout.xml
 declare-styleable;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/45/jl/res/values/attrs.xml
 external-cache-path;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/44/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 external-path;/Users/joshuasevy/Projects/TravelRecordApp/TravelRecordApp.Android/obj/Debug/lp/44/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
